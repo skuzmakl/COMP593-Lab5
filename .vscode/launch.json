@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "COMP593_A5E1",
+            "type": "python",
+            "request": "launch",
+            "program": "COMP593_A5E1.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["snorlax"]
+        },
+        {
+            "name": "paste_dad_jokes_script",
+            "type": "python",
+            "request": "launch",
+            "program": "paste_dad_jokes_script.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "cow"
+            ]
+        }
+    ]
+}
