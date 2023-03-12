@@ -20,13 +20,11 @@ def get_pokemon_name():
 
 def construct_poke_paste(poke_info):
     title = f"{poke_info['name'].capitalize()}'s Abilities"
-    #print(title)
 
     ability_info = poke_info['abilities']
     pokemon_abilities = ["- " + ability['ability']['name'] for ability in ability_info]
     body_text = '\n'.join(pokemon_abilities)
-    #print(body_text)
-
+    
     return title, body_text
 
 if __name__ == "__main__":
